@@ -274,8 +274,19 @@ body {
 
 @media (max-width: 768px) {
   .loading-text {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 0 1rem;
     text-align: center;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .loading-text {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    padding: 0 0.5rem;
   }
 }
